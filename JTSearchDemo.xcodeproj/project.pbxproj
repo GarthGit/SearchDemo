@@ -15,6 +15,8 @@
 		EE9982A221B7B1100039CAFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9982A121B7B1100039CAFA /* main.m */; };
 		EE9982AC21B7B1120039CAFA /* JTSearchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9982AB21B7B1120039CAFA /* JTSearchDemoTests.m */; };
 		EE9982B721B7B1120039CAFA /* JTSearchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9982B621B7B1120039CAFA /* JTSearchDemoUITests.m */; };
+		EE9982C721B7B55D0039CAFA /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9982C621B7B55D0039CAFA /* SearchViewController.m */; };
+		EE9982CA21B7B5940039CAFA /* SearchDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9982C921B7B5940039CAFA /* SearchDetailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		EE9982B221B7B1120039CAFA /* JTSearchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTSearchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9982B621B7B1120039CAFA /* JTSearchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTSearchDemoUITests.m; sourceTree = "<group>"; };
 		EE9982B821B7B1120039CAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9982C521B7B55D0039CAFA /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		EE9982C621B7B55D0039CAFA /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		EE9982C821B7B5940039CAFA /* SearchDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchDetailVC.h; sourceTree = "<group>"; };
+		EE9982C921B7B5940039CAFA /* SearchDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchDetailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		EE99829121B7B10F0039CAFA /* JTSearchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE9982C421B7B5390039CAFA /* Search */,
 				EE99829221B7B1100039CAFA /* AppDelegate.h */,
 				EE99829321B7B1100039CAFA /* AppDelegate.m */,
 				EE99829521B7B1100039CAFA /* ViewController.h */,
@@ -130,6 +137,17 @@
 				EE9982B821B7B1120039CAFA /* Info.plist */,
 			);
 			path = JTSearchDemoUITests;
+			sourceTree = "<group>";
+		};
+		EE9982C421B7B5390039CAFA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EE9982C521B7B55D0039CAFA /* SearchViewController.h */,
+				EE9982C621B7B55D0039CAFA /* SearchViewController.m */,
+				EE9982C821B7B5940039CAFA /* SearchDetailVC.h */,
+				EE9982C921B7B5940039CAFA /* SearchDetailVC.m */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +285,8 @@
 			files = (
 				EE99829721B7B1100039CAFA /* ViewController.m in Sources */,
 				EE9982A221B7B1100039CAFA /* main.m in Sources */,
+				EE9982C721B7B55D0039CAFA /* SearchViewController.m in Sources */,
+				EE9982CA21B7B5940039CAFA /* SearchDetailVC.m in Sources */,
 				EE99829421B7B1100039CAFA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
